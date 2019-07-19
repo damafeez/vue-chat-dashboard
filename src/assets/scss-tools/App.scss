@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+@import 'index.scss';
+
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+:root {
+  // colors
+  --bg-color: #F9F8FD;
+  --primary-color: #D6D6F2;
+  --secondary-color: #2687E9;
+  --accent-color: #E9E8ED;
+  --primary-text-color: #49494a;
+  --secondary-text-color: #a0a0a0;
+  --accent-text-color: #2687E9;
+
+  // space
+  --sm-space: 1.3rem;
+  --md-space: 3rem;
+  --lg-space: 5rem;
+  --xl-space: 10rem;
+
+  // font sizes
+  --sm-font: .7rem;
+  --md-font: .9rem;
+  --lg-font: 1.7rem;
+  --xl-font: 3rem;
+
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: var(--md-font);
+  line-height: 1.7;
+  color: var(--primary-text-color);
+  ::-webkit-scrollbar {
+    width: 7px;
+    cursor: pointer;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+      border-radius: 10px;
+      transition: border-left .5s ease-in-out;
+      will-change: border-left;
+      &:hover {
+        border-left: .5px solid lightgray;
+      }
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--secondary-text-color); 
+    border-radius: 10px;
+  }
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  background-size: cover;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+input {
+  outline: none;
+  border: none;
+  background: none;
+  font-size: inherit;
+}
+// svg-icons
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}

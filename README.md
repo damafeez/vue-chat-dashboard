@@ -1,6 +1,13 @@
 # vue-dashboard
+A beautiful dashboard interface implemented in Vue and typescript.
 
-## Project setup
+## Screenshots
+![screenshot](https://user-images.githubusercontent.com/26779819/61541206-2445fb00-aa37-11e9-8856-38f883922cd9.gif)
+
+## Design
+[Dribbble](https://dribbble.com/shots/4797890--Chat-Property-dashboard/attachments/1078924)
+
+## Vue Project setup
 ```
 npm install
 ```
